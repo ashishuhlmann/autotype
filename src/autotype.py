@@ -33,7 +33,7 @@ def wait_for_hotkey(hotkey: str):
             if hasattr(keyboard.Key, key_name) and key == getattr(keyboard.Key, key_name):
                 return False
 
-    print(f"File {pdf_path} ready. Click into the target field, then press '{hotkey}' to start typing...")
+    print(f"Click into the target field, then press '{hotkey}' to start typing...")
     with keyboard.Listener(on_press=on_press) as listener:
         listener.join()
 
