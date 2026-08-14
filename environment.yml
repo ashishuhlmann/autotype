@@ -1,0 +1,7 @@
+name: autotype
+channels:
+  - defaults
+dependencies:
+  - pyautogui
+  - pypdf
+  - pynput

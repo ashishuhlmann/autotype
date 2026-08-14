@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autotype"
+version = "0.1"
+description = "Type text into a specific window via a hotkey trigger"
+requires-python = ">=3.8"
+dependencies = [
+    "pyautogui",
+    "pynput",
+    "pypdf",
+]
+
+[project.scripts]
+autotype = "autotype:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["autotype"]
