@@ -26,7 +26,7 @@ autotype document.pdf --hotkey f9 --interval 0.02 --keep-newlines
 |---|---|---|
 | `pdf` | Path to the PDF file to read (required) | — |
 | `--hotkey` | Key that triggers typing to start | `f8` |
-| `--interval` | Delay in seconds between keystrokes | `0.05` |
+| `--interval` | Delay in seconds between keystrokes | `0.01` |
 | `--keep-newlines` | Keep newline characters instead of stripping them | off (newlines stripped) |
 
 ## Notes
